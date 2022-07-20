@@ -1,0 +1,19 @@
+[package]
+name = "trash"
+version = "1.0.0"
+description = "A library for moving files and folders to the Recycle Bin"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libtrash"
+repository = "https://github.com/thechampagne/libtrash"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "libtrash"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+trash = "2.1.5"
