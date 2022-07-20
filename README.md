@@ -19,7 +19,7 @@ cd libtrash
 cargo build
 ```
 
-### Available functions
+### Example
 
 ```c
 #include <stdio.h>
